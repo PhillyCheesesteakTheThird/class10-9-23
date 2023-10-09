@@ -12,6 +12,8 @@ public class Main {
         List<String> stringList = new ArrayList<>();
         CookingMechanism crockPot = new CookingMechanism("Cooker", 55);
         CookingMechanism smallCrockPot = new CookingMechanism("miniCrocker");
+        System.out.println(smallCrockPot);
+        System.out.println("\n");
         crockPot.self();
         smallCrockPot.self();
     }
