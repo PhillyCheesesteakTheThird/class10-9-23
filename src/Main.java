@@ -4,10 +4,13 @@ public class Main {
     public static void main(String[] args) {
         //Primitive
         int five = 5;
-        char character = '1';
+        String name = "nothingBucket";
 
         //Object
         String string = "I am string";
+        CookingMechanism nothingBucket = new CookingMechanism(name, five);
+        nothingBucket.self();
+
         //Classes
         List<String> stringList = new ArrayList<>();
         CookingMechanism crockPot = new CookingMechanism("Cooker", 55);
